@@ -10,9 +10,61 @@ If you find a bug, please file an issue on [our issue tracker on GitHub](https:/
 
 To help us reproduce the bug, please provide a minimal reproducible example, including a code snippet and the full error message.
 
+
+##Example: 
+
+```python
+# Minimal Reproducible Example
+from instructor import Instructor
+
+def reproduce_issue():
+    # Instantiate the Instructor
+    instructor = Instructor()
+
+    # Define a sample response model
+    response_model = {
+        "status": "success",
+        "message": "Hello, Instructor!",
+    }
+
+    # Simulate a bug
+    result = instructor.evaluate(response_model)
+
+    # Your code here to reproduce the issue
+    # ...
+
+    return result
+
+
 1. The `response_model` you are using.
 2. The `messages` you are using.
 3. The `model` you are using.
+
+## Interactive Example:
+
+To provide an interactive example, let's use the evaluate function with the provided example:
+
+python
+
+# Interactive Example
+from instructor import Instructor
+
+# Instantiate the Instructor
+instructor = Instructor()
+
+# Define a sample response model
+response_model = {
+    "status": "success",
+    "message": "Hello, Instructor!",
+}
+
+# Use the evaluate function
+result = instructor.evaluate(response_model)
+
+# Display the result
+print(result)
+
+This interactive example demonstrates how to use the evaluate function with the provided response_model. Feel free to experiment with different response models and observe the output.
 
 ## Pull Requests
 
