@@ -79,7 +79,11 @@ If you need ideas, you can check out the [help wanted](https://github.com/jxnl/i
 ## Additional Resources
 
 To improve the legibility of code and content, consider using the following features:
-- **mkdocs serve:** The `mkdocs serve` command is used to preview your documentation locally during the development phase. When you run this command in your terminal, MkDocs starts a development server, allowing you to view and interact with your documentation in a web browser. This is helpful for checking how your changes look before publishing the documentation. Learn more in the [mkdocs serve documentation](https://www.mkdocs.org/commands/serve/).
+
+You can use the following command to install the required packages: pip install mkdocs mkdocs-material mkdocs-minify-plugin mkdocstrings mkdocs-rss-plugin "mkdocs-material[imaging]" "mkdocstrings[python]"
+
+- **mkdocs serve:** The `mkdocs serve` command is used to preview your documentation locally during the development phase. When you run this command in your terminal, MkDocs starts a development server, allowing you to view and interact with your documentation in a web browser. This is helpful for checking how your changes look before publishing the documentation. Learn more in the [mkdocs serve documentation](https://www.mkdocs.org/user-guide/cli/#mkdocs-serve) or at https://www.mkdocs.org/user-guide/installation/
+
 
 - **hl_lines in Code Blocks:** The `hl_lines` feature in code blocks allows you to highlight specific lines within the code block. This is useful for drawing attention to particular lines of code when explaining examples or providing instructions. You can specify the lines to highlight using the `hl_lines` option in your code block configuration. For more details and examples, you can refer to the [hl_lines documentation](https://www.mkdocs.org/user-guide/writing-your-docs/#syntax-highlighting).
 
